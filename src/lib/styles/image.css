@@ -1,0 +1,14 @@
+/* src/lib/styles/image.css */
+.image {
+    @apply w-auto h-auto rounded mx-auto object-cover;
+}
+.site-logo {
+    @apply w-auto max-h-[20em];
+}
+.social-icons {
+    @apply flex gap-4 my-8 justify-center;
+}
+
+.social-icons-img {
+    @apply w-10 h-10 cursor-pointer; /* Reduced from 40rem to more reasonable size */
+}
