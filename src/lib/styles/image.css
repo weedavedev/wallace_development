@@ -1,10 +1,16 @@
 /* src/lib/styles/image.css */
-.image {
-    @apply w-auto h-auto rounded mx-auto object-cover;
+/*.image {*/
+/*    @apply w-auto h-auto rounded mx-auto object-cover;*/
+/*}*/
+.image-center {
+    @apply w-full h-auto max-w-[750px] rounded object-contain transition-all duration-300;
 }
-.site-logo {
-    @apply w-auto max-h-[20em];
-}
+/*.site-logo {*/
+/*    @apply w-auto max-h-[20em];*/
+/*}*/
+.site-logo-center {
+     @apply w-full max-w-[750px] h-auto;
+ }
 .social-icons {
     @apply flex gap-4 my-8 justify-center;
 }
