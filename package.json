@@ -26,6 +26,8 @@
 	"type": "module",
 	"dependencies": {
 		"@sveltejs/adapter-static": "^3.0.4",
-		"install": "^0.13.0"
+		"fdir": "^6.4.3",
+		"install": "^0.13.0",
+		"picomatch": "^4.0.2"
 	}
 }
