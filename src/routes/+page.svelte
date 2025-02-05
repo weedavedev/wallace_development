@@ -3,7 +3,7 @@
 
     import Image from '$lib/components/Image.svelte';
 
-    const logoSource = `${base}/WD_Logo.png`;
+    const logoSource = `WD_Logo.png`;
 
 </script>
 

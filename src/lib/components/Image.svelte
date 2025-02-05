@@ -7,7 +7,7 @@
 	export let alt = '';
 	export let className = '';
 	// Automatically handle base path
-	const fullSrc = `${base}${src}`;
+	const fullSrc = `${base}/${src}`;
 </script>
 
 <img
