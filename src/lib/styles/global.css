@@ -29,6 +29,6 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 850px; /* Matches your previous center_image max-width */
+    max-width: 750px; /* Matches your previous center_image max-width */
     padding: 2rem;
 }
