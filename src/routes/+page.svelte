@@ -11,7 +11,7 @@
     <Image
             src={logoSource}
             alt="Wallace Development Logo"
-            className="center_image mx-auto w-auto"
+            className="site-logo-center"
     />
 </div>
 
