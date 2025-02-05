@@ -1,2 +1,17 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+    import {base} from "$app/paths";
+
+    import Image from '$lib/components/Image.svelte';
+
+    const logoSource = `${base}/WD_Logo.png`;
+
+</script>
+
+<div class="holding_page_content">
+    <Image
+            src={logoSource}
+            alt="Wallace Development Logo"
+            className="center_image mx-auto w-auto"
+    />
+</div>
+

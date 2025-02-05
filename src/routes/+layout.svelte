@@ -1,6 +1,11 @@
-<script lang="ts">
-	import '../app.css';
-	let { children } = $props();
+<script>
+    import '$lib/styles/global.css';
+
+    // Moved to +layout.ts export const prerender = true;
 </script>
 
-{@render children()}
+<div class="main">
+
+    <slot/>
+
+</div>
